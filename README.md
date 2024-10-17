@@ -33,32 +33,32 @@ Deployment: Docker
 Setup and Installation
 Clone this repository:
 
-<pre> <code> ```python 
+<pre> <code> 
 git clone (https://github.com/22f1001274/GPT3ReponseAnalysis.git)
-``` </code> </pre>
+</code> </pre>
 Install dependencies from the requirements.txt file:
 
-<pre> <code> ```python 
+<pre> <code> 
 pip install -r requirements.txt
-``` </code> </pre>
+ </code> </pre>
 Set up your environment variables. Create a .env file with the following:
 
 makefile
-<pre> <code> ```python 
+<pre> <code> 
 API_KEY=your_openai_api_key
 DATABASE_URL=your_postgresql_database_url
-``` </code> </pre>
+</code> </pre>
 Run the Streamlit application:
 
-<pre> <code> ```python 
+<pre> <code>
 streamlit run main.py
-``` </code> </pre>
+</code> </pre>
 To deploy the application using Docker, build the Docker image and run the container:
 
-<pre> <code> ```python 
+<pre> <code>
 docker build -t gpt3-sentiment-app .
 docker run -p 8501:8501 gpt3-sentiment-app
-``` </code> </pre>
+</code> </pre>
 ## How It Works
 User Interaction: Users input text into the chat interface, and the application generates responses using GPT-3.
 Sentiment Analysis: Sentiment is analyzed for each response, and both the user’s input and AI's response are stored in a PostgreSQL database.
