@@ -1,0 +1,13 @@
+langchain
+langchain-openai
+langchain_community
+streamlit
+numpy
+python-dotenv
+transformers 
+torch 
+TextBlob 
+matplotlib 
+plotly 
+psycopg2-binary
+
