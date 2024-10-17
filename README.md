@@ -34,7 +34,7 @@ Setup and Installation
 Clone this repository:
 
 '''python
-git clone https://github.com/your-repo-name.git
+git clone [https://github.com/your-repo-name.git](https://github.com/22f1001274/GPT3ReponseAnalysis.git)
 '''
 Install dependencies from the requirements.txt file:
 
